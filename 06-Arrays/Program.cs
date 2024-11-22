@@ -124,7 +124,7 @@ namespace _06_Arrays
 
             #endregion
 
-            #region
+            #region //Dizi Örnekleri
 
             //string[] cities = new string[5];
             //for (int i = 0; i < cities.Length; i++)
@@ -186,6 +186,8 @@ namespace _06_Arrays
             //    }
             //}
             #endregion
+
+
             Console.Read();
 
         }
