@@ -136,12 +136,12 @@ namespace _06_Arrays
             //Console.WriteLine("*******************");
 
             //for (int i = 0; i < cities.Length; i++)
-            //{   
+            //{
             //    Console.WriteLine(cities[i]);
 
             //}
 
-            //--tamsayı dizisinin toplamını oluştur---------------------------
+            //--tamsayı dizisinin toplamını oluştur-------------------------- -
 
             //int[] numbers = { 10, 20, 30, 40, 50 };
             //int sum = 0;
@@ -162,7 +162,7 @@ namespace _06_Arrays
             //}
             //Console.WriteLine(sum2);
 
-            //--sayıları tek ve cift olarak ayrı ayrı listele---------------------------
+            //--sayıları tek ve cift olarak ayrı ayrı listele-------------------------- -
 
             //int[] numnbers = { 21, 42, 33, 54, 55, 66, 897, 748, 39, 220, 328 };
 
@@ -182,7 +182,7 @@ namespace _06_Arrays
             //{
             //    if (numnbers[i] % 2 == 1)
             //    {
-            //       Console.WriteLine(numnbers[i]);
+            //        Console.WriteLine(numnbers[i]);
             //    }
             //}
             #endregion
