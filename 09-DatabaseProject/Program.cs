@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Data.SqlClient;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,17 +37,19 @@ namespace _09_DatabaseProject
             adapter.Fill(dataTable);
             connection.Close();
 
-            foreach ( DataRow row in dataTable.Rows)
+            foreach (DataRow row in dataTable.Rows)
             {
-               foreach (var item in row.ItemArray)
-               {
+                foreach (var item in row.ItemArray)
+                {
                     Console.WriteLine(item.ToString());
-               }
-               Console.WriteLine();
+                }
+                Console.WriteLine();
             }
 
 
             Console.Read();
+
+
         }
     }
 }
